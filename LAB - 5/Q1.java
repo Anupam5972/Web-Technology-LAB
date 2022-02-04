@@ -8,5 +8,4 @@ public class Q1 {
         System.out.println("City: Bhubaneswar");
         System.out.println("State: Odisha");
     }
-    // ANUPAM MOHARANA, CSE - 05, 20051130
 }
