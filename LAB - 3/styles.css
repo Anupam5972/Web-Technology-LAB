@@ -1,0 +1,14 @@
+p:hover,
+h1:hover
+{
+    background-color: yellow;
+}
+.heading {
+    color: white;
+    background-color: 009900;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 2px;
+    border: greenyellow;
+    padding: 2%;
+    font-size: 25px;
+}

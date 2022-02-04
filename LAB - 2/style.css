@@ -1,0 +1,27 @@
+@charset "utf-8";
+body {
+    background: pink;
+}
+h1 {
+    color: red;
+	align-content: center
+    display: inline;
+    text-decoration: underline;
+    margin: 40px;
+}
+p {
+    color: blue;
+    font-size: 30px;
+    font-family: courier;
+    margin: 40px;
+}
+#p3 {
+    color: violet;
+}
+#p5 {
+    color: green;
+}
+h1.h12 {
+    color: violet;
+    background: green;
+}
