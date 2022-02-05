@@ -5,47 +5,67 @@
     <title>RegisterStudent</title>
 </head>
 
-<body bgcolor="#99ccff">
+<body bgcolor="#99ccff" style="align-items: justify;">
     <form>
-        <h2>Registration Form</h2>
+        <fieldset>
+            <legend>
+                <h1>Student Registration</h1>
+            </legend>
 
-        <label for="r1">First Name :</label>
-        <input type="text" name="fname"><br>
+            <label>Username:</label>
+            <input type="text"><br>
 
-        <label for="r2">Last Name :</label>
-        <input type="text" name="lname"><br>
+            <label>Password:</label>
+            &nbsp;<input type="password"><br>
 
-        <label for="r3">Username :</label>
-        <input type="text" name="uname"><br>
+            <label>Re-enter Password:</label>
+            <input type="password"><br>
 
-        <label for="r4" ">Password :</label>
-        <input type=" password" name="pass"><br>
+            <label>Security Question</label><br>
+            &nbsp;&nbsp;<input type="radio" name="SecQ">Favourite color<br>
+            &nbsp;&nbsp;<input type="radio" name="SecQ">First Pet<br>
+            &nbsp;&nbsp;<input type="radio" name="SecQ">Favourite author<br>
+            &nbsp;&nbsp;<input type="text"><br>
 
-            <label for="r5">Email :</label>
-            <input type="text" name="email"><br>
+            Gender<br>
+            &nbsp;&nbsp;<input type="radio" name="gender">Male<br>
+            &nbsp;&nbsp;<input type="radio" name="gender">Female<br>
+            &nbsp;&nbsp;<input type="radio" name="gender">Others<br>
 
-            <label for="r6">Mobile No :</label>
-            <input type="text" name="mno"><br>
+            <label>Email:</label>
+            <input type="email"><br>
 
-            <label for="r8">City:</label>
+            <label>Mobile No:</label>
+            <input type="number"><br>
 
-            <select name="ct">
-                <option>Select</option>
-                <option>Pune</option>
-                <option>Mumbai</option>
-                <option>Raigad</option>
-                <option>Nagpur</option>
-                <option>Nasik</option>
-                <option>Raigad</option>
-                <option>Nagar</option>
-                <option>Kolhapur</option>
-                <option>Solapur</option>
-            </select><br><br>
+            <label>School:</label>
+            <input type="text"><br>
+
+            <label>College:</label>
+            <input type="text"><br>
+
+            <label>Address line1:</label>
+            <input type="text"><br>
+
+            <label>&nbsp;&nbsp; line2:</label>
+            <input type="text"><br>
+
+            <label>&nbsp;&nbsp; line3:</label>
+            <textarea name="line3" id="line3" cols="" rows="3"></textarea><br>
+
+            <label>District/city:</label>
+            <input type="text"><br>
+
+            <label>State:</label>
+            <input type="text"><br>
+
+            <label>Country:</label>
+            <input type="text"><br><br>
 
             <button type="submit" value="Submit" ton"
                 onClick="alert('New Student Registered Successfully')">Register</button>
             <a href="Frame5.html">Back to Home</a>
-
+        </fieldset>
     </form>
 </body>
 
