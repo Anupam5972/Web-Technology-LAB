@@ -13,5 +13,8 @@
             "username": "system",
             "password": "kiit"
         }
+    ],
+    "java.project.sourcePaths": [
+        "LAB - 6"
     ]
 }
