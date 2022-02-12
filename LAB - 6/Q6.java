@@ -1,18 +1,16 @@
-class Q6 {
-    static int noOfObjects = 0;
+public class Q6 
+{
+    static int count=0;
+    Q6()
     {
-        noOfObjects += 1;
+        count++;
     }
-    public Q6() {
-    }
-    public Q6(int n) {
-    }
-    public Q6(String s) {
-    }
-    public static void main(String args[]) {
-        Q6 t1 = new Q6();
-        Q6 t2 = new Q6(5);
-        Q6 t3 = new Q6("GFG");
-        System.out.println(Q6.noOfObjects);
+    public static void main(String[] args) 
+    {
+        Q6 obj1 = new Q6();
+        Q6 obj2 = new Q6();
+        Q6 obj3 = new Q6();
+        Q6 obj4 = new Q6();
+        System.out.println("Number of objects created:"+count);
     }
 }

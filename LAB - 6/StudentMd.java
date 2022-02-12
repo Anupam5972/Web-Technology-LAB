@@ -40,13 +40,11 @@ public class StudentMd {
     }
 
     void total() {
-        System.out.println("Total Marks of the Student is ");
-        System.out.println("\n" + (mark1 + mark2 + mark3 + mark4 + mark5) + "\n");
+        System.out.println("Total Marks of the Student is: " + (mark1 + mark2 + mark3 + mark4 + mark5));
     }
 
     void avg() {
-        System.out.println("Avg Marks of the Student is ");
-        System.out.println("\n" + ((mark1 + mark2 + mark3 + mark4 + mark5) / 5) + "\n");
+        System.out.println("Avg Marks of the Student is: " + ((mark1 + mark2 + mark3 + mark4 + mark5) / 5));
     }
 
     public static void main(String[] args) {

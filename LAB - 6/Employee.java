@@ -1,4 +1,4 @@
-// void getdata()-to get student information and display()-to display student information. 2. Write a program in java to create a class Employee having data members name, employee_ID,Salary,Company Name, and member functions
+//2. Write a program in java to create a class Employee having data members name, employee_ID,Salary,Company Name, and member functions
 // getdata()--to get Employee information
 // display()--to display Employee information.
 import java.util.Scanner;
