@@ -15,6 +15,9 @@
         }
     ],
     "java.project.sourcePaths": [
-        "LAB - 6"
-    ]
+        "LAB - 7"
+    ],
+    "files.associations": {
+        "vector": "cpp"
+    }
 }
