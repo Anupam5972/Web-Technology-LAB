@@ -15,7 +15,8 @@
         }
     ],
     "java.project.sourcePaths": [
-        "LAB - 7"
+        "WT LAB",
+        ""
     ],
     "files.associations": {
         "vector": "cpp"
