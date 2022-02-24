@@ -11,8 +11,8 @@ class Area {
         radius = 0;
         length = 0;
         breadth = 0;
-        base = 0.0f;
-        height = 0.0f;
+        base = 0;
+        height = 0;
     }
 
     void input(int r) {
