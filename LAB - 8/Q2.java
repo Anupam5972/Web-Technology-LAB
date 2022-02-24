@@ -31,17 +31,17 @@ class Area {
 
     void AreaCircle() {
         arCircle = pi * radius * radius;
-        System.out.println("Area of Circle is " + arCircle + "cm.square");
+        System.out.println("Area of Circle is " + arCircle + "cm^2");
     }
 
     void AreaTriangle() {
         arTriangle = half * base * height;
-        System.out.println("Area of Triangle is " + arTriangle + "cm.square");
+        System.out.println("Area of Triangle is " + arTriangle + "cm^2");
     }
 
     void AreaRectangle() {
         arRectangle = length * breadth;
-        System.out.println("Area of Rectangle is " + arRectangle + "cm.square");
+        System.out.println("Area of Rectangle is " + arRectangle + "cm^2");
     }
 }
 
