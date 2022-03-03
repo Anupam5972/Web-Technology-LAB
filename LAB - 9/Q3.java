@@ -24,7 +24,7 @@ class woodBox extends Box {
     }
 
     void ml_Inherit(double length, double width, double height, double thick) {
-        System.out.println("Length: " + length + " Width: " + width + " Height: " + height + "Thick: " + thick);
+        System.out.println("Length: " + length + " Width: " + width + " Height: " + height + " Thick: " + thick);
     }
 }
 
