@@ -6,61 +6,61 @@ and perimeter of a triangle. */
 import java.util.Scanner;
 
 class Data {
-    double height, breadth;
-    double area, perimeter;
+    Scanner sc_1130 = new Scanner(System.in);
+    float height_1130, breadth_1130;
 
-    void get_data() {
-        Scanner s = new Scanner(System.in);
-        System.out.println("Enter Height: ");
-        height = s.nextDouble();
-        System.out.println("Enter Breadth: ");
-        breadth = s.nextDouble();
+    public void get_data() {
+        System.out.print("Enter height and breadth: ");
+        height_1130 = sc_1130.nextFloat();
+        breadth_1130 = sc_1130.nextFloat();
     }
 
-    void put_data() {
-        System.out.println("Height: " + height);
-        System.out.println("Breadth: " + breadth);
+    public void put_data() {
+        System.out.println("height = " + height_1130 + "\tbreadth = " + breadth_1130);
     }
 }
 
 class Rectangle extends Data {
+    float area_1130, p_1130;
 
-    void areaRectangle() {
-        super.get_data();
-        area = height * breadth;
-        System.out.println("Area Rectangle: " + area);
+    public void areaRectangle() {
+        area_1130 = height_1130 * breadth_1130;
+        System.out.println("Area of Rectangle = " + area_1130);
     }
 
-    void perimeterRectangle() {
-        perimeter = 2 * (height + breadth);
-        System.out.println("Perimeter Rectangle: " + perimeter);
+    public void perimeterRectangle() {
+        p_1130 = 2 * (height_1130 + breadth_1130);
+        System.out.println("Perimeter of Rectangle = " + p_1130);
     }
 }
 
 class Triangle extends Data {
+    float area_1130, p_1130;
 
-    void areaTriangle() {
-        super.get_data();
-        area = 0.5 * height * breadth;
-        System.out.println("Area Triangle : " + area);
+    public void areaTriangle() {
+        area_1130 = 0.5f * height_1130 * breadth_1130;
+        System.out.println("Area of Triangle = " + area_1130);
     }
 
-    void perimeterTriangle() {
-        perimeter = (height + breadth + height);
-        System.out.println("Perimeter Triangle: " + perimeter);
+    public void perimeterTriangle() {
+        p_1130 = (float) (breadth_1130
+                + 2 * (Math.sqrt(height_1130 * height_1130 + (breadth_1130 * breadth_1130 / 4))));
+        System.out.println("Perimeter of Triangle = " + p_1130);
     }
 }
 
 public class Q1 {
+
     public static void main(String[] args) {
-        Data d = new Data();
-        d.get_data();
-        d.put_data();
-        Rectangle d1 = new Rectangle();
-        d1.areaRectangle();
-        d1.perimeterRectangle();
-        Triangle d2 = new Triangle();
-        d2.areaTriangle();
-        d2.perimeterTriangle();
+        Rectangle obj1_1130 = new Rectangle();
+        obj1_1130.get_data();
+        obj1_1130.put_data();
+        obj1_1130.areaRectangle();
+        obj1_1130.perimeterRectangle();
+        Triangle obj2_1130 = new Triangle();
+        obj2_1130.get_data();
+        obj2_1130.put_data();
+        obj2_1130.areaTriangle();
+        obj2_1130.perimeterTriangle();
     }
 }
